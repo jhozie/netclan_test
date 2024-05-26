@@ -1,0 +1,24 @@
+Installation Instructions
+Step-by-Step Guide:
+
+Download the APK:
+
+Use the provided link to download the APK file: NetclanAssignment.apk.
+Enable Unknown Sources:
+
+Go to Settings > Security.
+Enable Unknown Sources to allow installation of apps from sources other than the Play Store.
+Install the APK:
+
+Locate the downloaded APK file in your device’s file manager.
+Tap on the APK file to start the installation process.
+Follow the on-screen instructions to complete the installation.
+Launch the App:
+
+Open the app from your app drawer.
+
+
+
+// Improving Further
+
+Animations for better user experience and interaction
