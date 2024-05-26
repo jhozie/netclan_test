@@ -37,12 +37,14 @@ class BusinessesCard extends StatelessWidget {
                           padding: EdgeInsets.only(left: 50),
                           child: Row(
                             children: [
-                              Text(
-                                'Joseph Nwankwo',
-                                style: TextStyle(
-                                    fontSize: 15,
-                                    color: Color(0xFF4F4F4F),
-                                    fontWeight: FontWeight.w600),
+                              Expanded(
+                                child: Text(
+                                  'Joseph Nwankwo',
+                                  style: TextStyle(
+                                      fontSize: 15,
+                                      color: Color(0xFF4F4F4F),
+                                      fontWeight: FontWeight.w600),
+                                ),
                               ),
                               SizedBox(
                                 width: 60,

@@ -34,18 +34,20 @@ class ServicesCard extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         const Padding(
-                          padding: EdgeInsets.only(left: 50),
+                          padding: EdgeInsets.only(left: 50, right: 20),
                           child: Row(
                             children: [
-                              Text(
-                                'Ajay Bidyarthy',
-                                style: TextStyle(
-                                    fontSize: 15,
-                                    color: Color(0xFF4F4F4F),
-                                    fontWeight: FontWeight.w600),
+                              Expanded(
+                                child: Text(
+                                  'Ajay Bidyarthy',
+                                  style: TextStyle(
+                                      fontSize: 15,
+                                      color: Color(0xFF4F4F4F),
+                                      fontWeight: FontWeight.w600),
+                                ),
                               ),
                               SizedBox(
-                                width: 85,
+                                width: 70,
                               ),
                               Text(
                                 '+ INVITE', // to be replaced with TextButton

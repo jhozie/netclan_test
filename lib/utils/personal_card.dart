@@ -34,15 +34,17 @@ class PersonalCard extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         const Padding(
-                          padding: EdgeInsets.only(left: 50),
+                          padding: EdgeInsets.only(left: 50, right: 20),
                           child: Row(
                             children: [
-                              Text(
-                                'Mary Jane',
-                                style: TextStyle(
-                                    fontSize: 15,
-                                    color: Color(0xFF4F4F4F),
-                                    fontWeight: FontWeight.w600),
+                              Expanded(
+                                child: Text(
+                                  'Mary Jane',
+                                  style: TextStyle(
+                                      fontSize: 15,
+                                      color: Color(0xFF4F4F4F),
+                                      fontWeight: FontWeight.w600),
+                                ),
                               ),
                               SizedBox(
                                 width: 105,
